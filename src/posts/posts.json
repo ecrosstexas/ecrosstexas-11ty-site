@@ -1,0 +1,6 @@
+{
+	"permalink": "blog/{{ title | slugify }}/index.html",
+	"tags": "post",
+	"author": "{{ meta.author }}",
+	"type": "article"
+}
