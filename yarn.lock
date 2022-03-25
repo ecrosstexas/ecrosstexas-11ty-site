@@ -18,6 +18,16 @@
     "p-queue" "^6.6.2"
     "short-hash" "^1.0.0"
 
+"@11ty/eleventy-fetch@^3.0.0":
+  "integrity" "sha512-qJvfb331rYQAmlCS71Ygg0/XHUdB4/qXBOLsG0DJ1m61WL5JNha52OtKVeQq34u2J2Nfzim+X4TIL/+QyesB7Q=="
+  "resolved" "https://registry.npmjs.org/@11ty/eleventy-fetch/-/eleventy-fetch-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "debug" "^4.3.3"
+    "flat-cache" "^3.0.4"
+    "node-fetch" "^2.6.7"
+    "p-queue" "^6.6.2"
+
 "@11ty/eleventy-img@^1.0.0":
   "integrity" "sha512-JhndlE2l0TdedTUODqOHrk3ggdyKe1QHElfPDvyBeA7jouHYtm01NbPKXXaz5Y1+AoPfOXDaYg/Zp1Q8AF1hiQ=="
   "resolved" "https://registry.npmjs.org/@11ty/eleventy-img/-/eleventy-img-1.0.0.tgz"
@@ -29,6 +39,14 @@
     "image-size" "^1.0.0"
     "p-queue" "^6.6.2"
     "sharp" "^0.29.1"
+
+"@11ty/eleventy-plugin-directory-output@^1.0.1":
+  "integrity" "sha512-CPBiAOOu5pCIuQW10mURGMK/zBA6gwhzqZmzBBbUeqRsmb3gDk0jcQh/H+2D538Az6NVRSOfjXOzZWorjpG6nw=="
+  "resolved" "https://registry.npmjs.org/@11ty/eleventy-plugin-directory-output/-/eleventy-plugin-directory-output-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "kleur" "^4.1.4"
+    "strip-color" "^0.1.0"
 
 "@11ty/eleventy-upgrade-help@^1.0.1":
   "integrity" "sha512-9YqcRPYhBCJjcbAdz7cGIHHzpNDLr9V3igWjeuOfq3w3I4QsYjvr/ZZCLJLSsYfwIWyyTVAGbrF800pM7qSPQA=="
@@ -2340,7 +2358,7 @@
   "resolved" "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
   "version" "6.0.3"
 
-"kleur@^4.1.4 ":
+"kleur@^4.1.4", "kleur@^4.1.4 ":
   "integrity" "sha512-8QADVssbrFjivHWQU7KkMgptGTl6WAcSdlbBPY4uNF+mWr6DGcKrvY2w4FQJoXch7+fKMjj0dRrL75vk3k23OA=="
   "resolved" "https://registry.npmjs.org/kleur/-/kleur-4.1.4.tgz"
   "version" "4.1.4"
@@ -2720,6 +2738,11 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
+"netlify-plugin-11ty@^1.1.0":
+  "integrity" "sha512-5NXhGIK+giWoHm6O2SbDeHEASLkkJp3nm0jcEoSMGblNdFQgY0V+3aF/ILORXjCqxx6GY+w63pbI2m7OdRxUmQ=="
+  "resolved" "https://registry.npmjs.org/netlify-plugin-11ty/-/netlify-plugin-11ty-1.1.0.tgz"
+  "version" "1.1.0"
+
 "nice-try@^1.0.4":
   "integrity" "sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ=="
   "resolved" "https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz"
@@ -2737,10 +2760,10 @@
   "resolved" "https://registry.npmjs.org/node-addon-api/-/node-addon-api-4.2.0.tgz"
   "version" "4.2.0"
 
-"node-fetch@^2.6.1":
-  "integrity" "sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA=="
-  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.6.tgz"
-  "version" "2.6.6"
+"node-fetch@^2.6.1", "node-fetch@^2.6.7":
+  "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
+  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
+  "version" "2.6.7"
   dependencies:
     "whatwg-url" "^5.0.0"
 
@@ -4045,6 +4068,11 @@
   "integrity" "sha1-IzTBjpx1n3vdVv3vfprj1YjmjtM="
   "resolved" "https://registry.npmjs.org/strip-bom/-/strip-bom-3.0.0.tgz"
   "version" "3.0.0"
+
+"strip-color@^0.1.0":
+  "integrity" "sha1-EG9l09PmotlAHKwOsM6LinArT3s="
+  "resolved" "https://registry.npmjs.org/strip-color/-/strip-color-0.1.0.tgz"
+  "version" "0.1.0"
 
 "strip-final-newline@^2.0.0":
   "integrity" "sha512-BrpvfNAE3dcvq7ll3xVumzjKjZQ5tI1sEUIKr3Uoks0XUl45St3FlatVqef9prk4jRDzhW6WZg+3bk93y6pLjA=="
