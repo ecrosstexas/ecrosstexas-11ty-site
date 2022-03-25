@@ -56,7 +56,7 @@
     "chalk" "^4.1.1"
     "semver" "^7.3.5"
 
-"@11ty/eleventy@^1.0.0", "@11ty/eleventy@>=0.11.0":
+"@11ty/eleventy@^0.11.0 || ^0.12.0 || ^1.0.0", "@11ty/eleventy@^1.0.0", "@11ty/eleventy@>=0.11.0":
   "integrity" "sha512-UMZghkMFwovu3Vh6DzjJ9GbcBnlE3nydGmLAti2AB1d6etQE+jXgfuHNxOyV1em33ywsBgGUCtLmLHaaTSU+Nw=="
   "resolved" "https://registry.npmjs.org/@11ty/eleventy/-/eleventy-1.0.0.tgz"
   "version" "1.0.0"
@@ -182,6 +182,11 @@
   dependencies:
     "@nodelib/fs.scandir" "2.1.5"
     "fastq" "^1.6.0"
+
+"@quasibit/eleventy-plugin-schema@^1.9.0":
+  "integrity" "sha512-MjlAVdwo/wCFNsxuMrVHSdS3lIl07H2rSXyoDNlHYipfJ6TVk5r0E0ssYfq2hyA8f/ec49rlWV9cRaMfcF/GjA=="
+  "resolved" "https://registry.npmjs.org/@quasibit/eleventy-plugin-schema/-/eleventy-plugin-schema-1.9.0.tgz"
+  "version" "1.9.0"
 
 "@quasibit/eleventy-plugin-sitemap@^2.1.5":
   "integrity" "sha512-/mH9/APfkfQjbf/lkPepgUe4uWwd+opV/7S8RJAGBXZserIchOtoT3Lox3OZ4uHa89ywaTrIEMqm9HmWhLH//w=="
