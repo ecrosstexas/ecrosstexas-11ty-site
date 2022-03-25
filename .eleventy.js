@@ -1,4 +1,7 @@
-const { toISOString, toAbsoluteUrl } = require("./11ty/filters");
+const plugins = require("./11ty/plugins");
+
+const { toAbsoluteUrl } = require("./11ty/filters");
+const { toISOString } = require("./11ty/filters/date.js");
 const dir = require("./11ty/constants/dir");
 const imageShortcode = require("./11ty/shortcodes/image");
 const faviconShortcode = require("./11ty/shortcodes/favicon");
@@ -9,6 +12,7 @@ const TEMPLATE_ENGINE = 'liquid';
 module.exports = (eleventyConfig) => {
   // Watch targets
   eleventyConfig.addWatchTarget(`${dir.input}/assets/styles`);
+  eleventyConfig.addWatchTarget(`${dir.input}/_generate`);
 
   // Custom shortcodes
   eleventyConfig.addShortcode('image', imageShortcode);
@@ -23,11 +27,25 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
 
+  // Custom collections
+
+  // Plugins
+  // Add Eleventy plugins from /11ty/plugins.js
+  console.group("🔌 Plugins (/11ty/plugins.js)");
+  Object.keys(plugins).forEach((pluginName) => {
+    console.log(" · " + pluginName);
+    plugins[pluginName](eleventyConfig);
+  });
+  console.groupEnd();
+
+  // Post-processing
+
+
   return {
     dir,
     dataTemplateEngine: TEMPLATE_ENGINE,
     markdownTemplateEngine: TEMPLATE_ENGINE,
     htmlTemplateEngine: TEMPLATE_ENGINE,
-    templateFormats: ['html', 'md', TEMPLATE_ENGINE],
+    templateFormats: ['html', 'md', 'njk', TEMPLATE_ENGINE],
   };
 };
