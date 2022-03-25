@@ -1,0 +1,4 @@
+# dependencies installed by npm
+node_modules/
+
+README.md
