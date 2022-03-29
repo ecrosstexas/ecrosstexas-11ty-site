@@ -7,7 +7,7 @@ draft: false
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: ../../img//political-typology-quiz.jpg
+  image: /assets/images/political-typology-quiz.jpg
 images: # relative to /src/assets/images/
   feature: # used for hero
   thumb: # used for collections listing view

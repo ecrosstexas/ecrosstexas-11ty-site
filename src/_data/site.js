@@ -3,13 +3,13 @@ const environmentSpecificVariables = {
     url: 'http://localhost:8080',
   },
   production: {
-    url: '',
+    url: 'https://www.ecrosstexas.com/',
   },
 };
 
 module.exports = {
-  title: '',
-  author: '',
+  title: 'ecrosstexas.com',
+  author: 'Eric Wallace',
   email: '',
   description: '',
   keywords: [],

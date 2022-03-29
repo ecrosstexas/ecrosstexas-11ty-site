@@ -43,9 +43,11 @@
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "@quasibit/eleventy-plugin-schema": "^1.9.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
+    "eleventy-plugin-embed-everything": "^1.14.0",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-reading-time": "^0.0.1",
     "eleventy-plugin-svg-contents": "^0.7.0",
+    "luxon": "^2.3.1",
     "netlify-plugin-11ty": "^1.1.0"
   },
   "husky": {
