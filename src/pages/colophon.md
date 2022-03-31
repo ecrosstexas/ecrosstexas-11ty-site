@@ -15,7 +15,7 @@ The site is currently hosted on <a target="_blank" href="https://netlify.com" al
 
 ## Copyright
 
-Unless otherwise noted, all original content is copyright &copy; 2001-2021 Eric Wallace.
+Unless otherwise noted, all original content is copyright &copy; 2001-2022 Eric Wallace.
 
 ## Standards
 
@@ -29,8 +29,6 @@ Run the [W3C Markup Validator](http://validator.w3.org) against {{ meta.siteURL 
 
 - [HTML5](https://www.w3.org/html/)
 - [CSS3]()
-- <a target="_blank" href="https://tailwindcss.com" alt="TailwindCSS Utility-First CSS Framework">TailwindCSS</a>
-- <a target="_blank" href="https://github.com/alpinejs/alpine" alt="Alpine.js : Think of it like Tailwind for JavaScript">Alpine.js</a>
 - [IndieAuth](https://indieauth.net)
 - [Webmentions](https://www.w3.org/TR/webmention/)
 - [Microformats](http://microformats.org)

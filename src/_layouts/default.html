@@ -53,8 +53,11 @@ stylesheets:
   {% favicon '/assets/favicon/favicon.png' %}
 </head>
 <body>
+  {% include "header.njk" %}
   {%- comment -%}Add common layout components here (e.g., site nav/footer){%- endcomment -%}
+  <main id="content"
   {{ content }}
+  </main>
   {% include "footer.njk" %}
 </body>
 </html>

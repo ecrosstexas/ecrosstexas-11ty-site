@@ -46,4 +46,12 @@ module.exports = {
     let plugin = require('eleventy-plugin-svg-contents');
     eleventyConfig.addPlugin(plugin);
   },
+
+  embedEverything: function (eleventyConfig) {
+    /**
+     * https://github.com/gfscott/eleventy-plugin-embed-everything
+     */
+    const embedEverything = require('eleventy-plugin-embed-everything');
+    eleventyConfig.addPlugin(embedEverything);
+  },
 };
