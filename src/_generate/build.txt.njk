@@ -1,0 +1,7 @@
+---
+permalink: build.txt
+eleventyExcludeFromCollections: true
+# https://github.com/maxboeck/mxb/blob/master/src/build.njk
+---
+LAST BUILD: {{ build.timestamp | dateToISO }}
+ENV:        {{ build.env}}
