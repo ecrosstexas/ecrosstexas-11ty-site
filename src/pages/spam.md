@@ -3,6 +3,7 @@ title: Spam # will be overwritten by SEO.title below
 description:
 permalink: /spam/index.html
 date:
+layout: page
 body_class:
 eleventyExcludeFromCollections: true
 seo:

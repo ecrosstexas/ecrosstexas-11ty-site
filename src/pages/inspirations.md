@@ -22,3 +22,4 @@ https://geekosaur.com
 
 https://github.com/thiagomgd/eleventy_notion_starter
 
+https://www.webstoemp.com/blog/eleventy-projects-structure/

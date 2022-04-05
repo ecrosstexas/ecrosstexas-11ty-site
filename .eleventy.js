@@ -1,7 +1,7 @@
 const plugins = require("./11ty/plugins.js");
 
 const { toAbsoluteUrl } = require("./11ty/filters");
-const { toISOString } = require("./11ty/filters/date.js");
+const { dateToISO } = require("./11ty/filters/date.js");
 const dir = require("./11ty/constants/dir.js");
 const imageShortcode = require("./11ty/shortcodes/image.js");
 const faviconShortcode = require("./11ty/shortcodes/favicon.js");
@@ -22,7 +22,7 @@ module.exports = (eleventyConfig) => {
 
   // Custom filters
   eleventyConfig.addFilter('toAbsoluteUrl', toAbsoluteUrl);
-  eleventyConfig.addFilter('toIsoString', toISOString);
+  eleventyConfig.addFilter('dateToISO', dateToISO);
   eleventyConfig.addFilter('toJson', JSON.stringify);
   eleventyConfig.addFilter('fromJson', JSON.parse);
   eleventyConfig.addFilter('keys', Object.keys);

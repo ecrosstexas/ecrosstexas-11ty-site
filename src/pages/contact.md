@@ -1,14 +1,13 @@
 ---
 title: Contact
 permalink: /contact/index.html
-eleventyNavigation:
-  key: main
-  title: Contact # as it will appear in the nav
-  order: 5   # order to display in the nav
+layout: contact
 seo:
   title: Contact # overrides 'title' above on both Page and META
   description:
   image:
+tags:
+  - pages
 ---
 
 ## ground rules:

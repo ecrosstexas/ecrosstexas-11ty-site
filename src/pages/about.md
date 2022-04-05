@@ -3,6 +3,7 @@ title:  About # will be overwritten by SEO.title below
 description:
 permalink: /about/index.html
 date:  2021-07-22T12:00:00
+layout: page
 body_class:
 eleventyExcludeFromCollections: false
 eleventyNavigation:
@@ -13,6 +14,8 @@ seo:
   title: About # overrides 'title' above on both Page and META
   description: "About ecrosstexas.com, a modern digital ranch created by Eric Wallace"
   image:
+tags:
+  - pages
 ---
 
 ecrosstexas.com is the personal website of [[eric-wallace|Eric Wallace]].

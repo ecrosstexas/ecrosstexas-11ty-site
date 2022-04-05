@@ -1,0 +1,24 @@
+---
+title: Complete Archives of Blog Posts
+permalink: blog/archives/index.html
+date: 2020-08-05
+layout: page
+eleventyExcludeFromCollections: false
+seo:
+  title: Posts
+  description:
+  tags:
+  - pages
+---
+
+{% set postslist = collections.post %}
+
+{#
+  Allows a user to easily change the Post List Style.
+  Change the 'postListStyle' value in /_data/structure.json.
+  NOTE: Can make this a select in the CMS?
+#}
+{% set postlist = ['', structure.postListStyle, '.njk'] %}
+{% include postlist | join %}
+
+<p>See more blog posts in the <a href="/blog/archives/index.html">archives</a>.</p>

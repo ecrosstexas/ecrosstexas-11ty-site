@@ -1,0 +1,22 @@
+---
+title: Library
+permalink: library/index.html
+date:
+layout: page
+eleventyExcludeFromCollections: false
+seo:
+  title: My Library
+  description:
+  tags:
+  - pages
+---
+
+{% set postslist = collections.library %}
+
+{#
+  Allows a user to easily change the Post List Style.
+  Change the 'postListStyle' value in /_data/structure.json.
+  NOTE: Can make this a select in the CMS?
+#}
+{% set postlist = ['', structure.postListStyle, '.njk'] %}
+{% include postlist | join %}

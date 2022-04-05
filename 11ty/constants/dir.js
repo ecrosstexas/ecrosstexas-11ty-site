@@ -3,7 +3,7 @@ const dir = {
   input: 'src',
   output: '_site',
   includes: '_includes',
-  layouts: '_layouts',
+  layouts: '_includes/layouts',
   data: '_data',
 };
 
