@@ -1,6 +1,6 @@
 {
   "name": "ecrosstexas-11ty-site",
-  "description": "Repo for ecrosstexas.com the personal website for Eric Wallace.",
+  "description": "My personal website and blog, built with eleventy",
   "version": "0.0.1",
   "license": "ISC",
   "author": "Eric Wallace",
