@@ -13,4 +13,4 @@ Legal stuff goes here.
 
 [Fair Use Disclaimer](/disclaimer/)
 
-Affiliate Disclosure
+[Affiliate Disclosure](/affiliate-disclosure/)
