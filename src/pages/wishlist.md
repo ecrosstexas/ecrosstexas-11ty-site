@@ -10,6 +10,8 @@ seo:
   title: # overrides 'title' above on both Page and META
   description:
   image:
+tags:
+  - pages
 ---
 
 [Amazon Wishlist](https://www.amazon.com/hz/wishlist/ls/31EDDE0CILTS3?ref_=wl_share)
