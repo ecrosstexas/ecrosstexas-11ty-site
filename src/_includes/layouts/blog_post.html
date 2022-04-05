@@ -53,12 +53,12 @@ stylesheets:
   {% favicon '/assets/favicon/favicon.png' %}
 </head>
 <body>
-  {% include "partials/header.njk" %}
+  {% include "partials/page_header.njk" %}
   {%- comment -%}Add common layout components here (e.g., site nav/footer){%- endcomment -%}
   <main id="content">
     <h1>{{ title }}</h1>
   {{ content }}
   </main>
-  {% include "partials/footer.njk" %}
+  {% include "partials/page_footer.njk" %}
 </body>
 </html>
