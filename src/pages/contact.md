@@ -1,7 +1,7 @@
 ---
 title: Contact
 permalink: /contact/index.html
-layout: contact
+layout: default
 seo:
   title: Contact # overrides 'title' above on both Page and META
   description:

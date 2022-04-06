@@ -3,7 +3,7 @@ title: Chief is turning 60 # will be overwritten by SEO.title below
 description:
 permalink: /chief-is-60/index.html
 date:
-layout: page
+layout: default
 body_class:
 seo:
   title: # overrides 'title' above on both Page and META

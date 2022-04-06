@@ -3,7 +3,7 @@ title:  Famous Erics # will be overwritten by SEO.title below
 description: Eric, Erik, Erick, Eriq
 permalink: /famous-erics/index.html
 date: 2006-10-19T09:29:00
-layout: page
+layout: default
 body_class:
 seo:
   title:  # overrides 'title' above on both Page and META

@@ -3,7 +3,7 @@ title: On April 19 # will be overwritten by SEO.title below
 description:
 permalink: /april-19/index.html
 date: 2009-04-19
-layout: page
+layout: default
 body_class:
 seo:
   title: # overrides 'title' above on both Page and META

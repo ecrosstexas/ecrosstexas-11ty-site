@@ -2,8 +2,8 @@
 title:  Streaming Media # will be overwritten by SEO.title below
 description:
 permalink: /watch/index.html
-date: 
-layout: page
+date:
+layout: default
 body_class:
 eleventyExcludeFromCollections: false
 seo:

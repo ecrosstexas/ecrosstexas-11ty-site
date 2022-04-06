@@ -3,7 +3,7 @@ title: Signature Collection # will be overwritten by SEO.title below
 description:
 permalink: /signatures/index.html
 date: 2006-10-19T09:16:00
-layout: page
+layout: default
 body_class:
 seo:
   title: # overrides 'title' above on both Page and META

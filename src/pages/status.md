@@ -2,8 +2,8 @@
 title:  Status # will be overwritten by SEO.title below
 description:
 permalink: /status/index.html
-date:  
-layout: page
+date:
+layout: default
 body_class:
 seo:
   title: # overrides 'title' above on both Page and META

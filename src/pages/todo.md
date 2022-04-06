@@ -1,7 +1,7 @@
 ---
 title: Todo
 permalink: /todo/
-layout: page
+layout: default
 ---
 # Todo
 

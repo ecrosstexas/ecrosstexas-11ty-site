@@ -1,7 +1,7 @@
 ---
 title: Uses
 description: A page detailing developer setups, gear, software and configs.
-layout: page
+layout: default
 permalink: /uses/index.html
 tags:
   - pages

@@ -2,8 +2,8 @@
 title:  Geek Resume # will be overwritten by SEO.title below
 description:
 permalink: /geek-resume/index.html
-date:  
-layout: page
+date:
+layout: default
 body_class:
 seo:
   title: # overrides 'title' above on both Page and META
@@ -17,7 +17,7 @@ seo:
 
 March 2021-
 
-### iMac 
+### iMac
 
 ### MacBook Pro
 
@@ -33,7 +33,7 @@ Features: 1.8GHz PowerPC G5 processor, 1GB RAM, 250MB SATA HD</p>
 
 Jan 1999-Feb 2005
 
-Featured: 350Mhz PowerPC G3 processor, 512 MB RAM, 120MB HD, CD-R, 128 MB Zip 
+Featured: 350Mhz PowerPC G3 processor, 512 MB RAM, 120MB HD, CD-R, 128 MB Zip
 
 ### Macintosh Performa 5200CD
 

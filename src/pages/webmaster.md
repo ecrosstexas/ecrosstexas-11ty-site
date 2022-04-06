@@ -2,7 +2,7 @@
 title:  Webmaster Tools # will be overwritten by SEO.title below
 description:
 permalink: /admin/webmaster/index.html
-layout: page
+layout: default
 body_class:
 seo:
   title:  # overrides 'title' above on both Page and META

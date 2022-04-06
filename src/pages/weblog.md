@@ -3,7 +3,7 @@ title:  "What is a Weblog?" # will be overwritten by SEO.title below
 description:
 permalink: /weblog/index.html
 date:  2001-11-10
-layout: page
+layout: default
 body_class:
 seo:
   title: "What is a Weblog?" # overrides 'title' above on both Page and META

@@ -1,10 +1,9 @@
 ---
-layout: page
-permalink: /changelog/index.html
-meta_title: Changelog
-meta_description: All notable changes to this project will be documented in this file.
-body_class: changelog
 title: Changelog
+layout: default
+permalink: /changelog/index.html
+description: All notable changes to this project will be documented in this file.
+body_class: changelog
 date:
 tags:
   - pages

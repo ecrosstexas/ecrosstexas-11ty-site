@@ -3,7 +3,7 @@ title:  Eric T. Walace # will be overwritten by SEO.title below
 description:
 permalink: /eric/index.html
 date: 2009-08-06
-layout: page
+layout: default
 body_class: eric
 seo:
   title: Eric T. Wallace - Just a sinner saved by Grace # overrides 'title' above on both Page and META

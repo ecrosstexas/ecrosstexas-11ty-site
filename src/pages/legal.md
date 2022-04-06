@@ -3,7 +3,7 @@ title:  Legal # will be overwritten by SEO.title below
 description:
 permalink: /legal/index.html
 date:
-layout: page
+layout: default
 body_class:
 eleventyExcludeFromCollections: false
 tags:
