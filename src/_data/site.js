@@ -14,6 +14,7 @@ module.exports = {
   description: 'The personal website of Eric Wallace, a digital rancher in Plano, Texas.',
   keywords: 'ecrosstexas, Eric Wallace , Christianity, Texas, PCA, web, blog, books, sports, movies, reviews',
   language: 'en-US',
+  repo: '',
   indieauth: true,
   indieauthAuth: 'https://indieauth.com/auth',
   indieauthToken: 'https://tokens.indieauth.com/token',
