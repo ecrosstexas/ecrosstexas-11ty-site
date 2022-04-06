@@ -1,0 +1,43 @@
+---
+stylesheets:
+  - /assets/styles/main.css
+---
+{#- Canonical URL. Make sure each page has one. #}
+{%- set canonicalUrl -%}{{ page.url | toAbsoluteUrl }}{%- endset -%}
+{#- https://dinhanhthi.com/11ty-nunjucks/#recognize-home-page #}
+{%- set pageUrlLength -%}{{ page.url | length }}{%- endset -%}
+
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<!--
+  I see you are taking a peek under the hood.
+  View the source here: {{ site.repo }}
+-->
+  <head>
+    <meta charset="utf-8">
+  {%- if page.url == "/" %}
+    <title>{{ site.title }}</title>
+  {%- else %}
+    <title>{{ seo.title or title }} | {{ site.title }}</title>
+  {%- endif %}
+    <meta name="description" content="{{ seo.description or excerpt or site.description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="canonical" href="{{ canonicalUrl }}">
+  {#- Global and page/layout-specific CSS #}
+  {%- for href in stylesheets %}
+    <link rel="stylesheet" href="{{ href }}">
+  {%- endfor -%}
+  {%- include "partials/html_head.njk" %}
+  </head>
+  <body>
+  {%- include "partials/page_header.njk" -%}
+    <main id="content">
+      {%- if pageUrlLength > 1 -%}
+      <h1>{{ title }}</h1>
+      {%- endif -%}
+    {{ content | safe }}
+    </main>
+  {%- include "partials/page_footer.njk" -%}
+  </body>
+</html>
