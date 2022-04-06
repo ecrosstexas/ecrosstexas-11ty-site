@@ -1,0 +1,34 @@
+
+  {#- Robtos #}
+  {% if noindex == true %}
+    <meta name="robots" content="noindex,follow">
+  {% endif %}
+
+  {#- Open Graph #}
+    <meta property="og:title" content="{{ pageTitle }}">
+  {%- if thumbnail -%}
+    <meta property="og:image" content="{{ thumbnail }}">
+  {%- endif -%}
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ page.url | toAbsoluteUrl }}">
+  {#- Twitter Card #}
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ pageTitle }}">
+    <meta name="twitter:description" content="{{ description }}">
+  {%- if thumbnail -%}
+    <meta name="twitter:image" content="{{ thumbnail }}">
+  {%- endif -%}
+  {#- Favicons #}
+    {# TOD0: get working}
+    {% favicon '/assets/favicon/favicon.png' %} #}
+  {#- .Manifest #}
+    <link rel="manifest" href="/manivest.webmanifest">
+  {#- Humans.txt - https://humanstxt.org #}
+    <link type="text/plain" rel="author" href="/humans.txt" />
+  {#- IndieAuth --- NEED TO UPDATE TO ONLY SHOW ON HOME PAGE #}
+    <link rel="authorization_endpoint" href="{{ site.indieauthAuth }}">
+    <link rel="token_endpoint" href="{{ site.indieauthToken }}">
+  {# Webmentions #}
+    <link rel="webmention" href="https://webmention.io/www.ecrosstexas.com/webmention" />
+    <link rel="pingback" href="https://webmention.io/www.ecrosstexas.com/xmlrpc" />
+  {#- RSS Feed #}
