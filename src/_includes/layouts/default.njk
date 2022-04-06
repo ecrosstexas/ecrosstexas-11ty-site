@@ -25,6 +25,7 @@ stylesheets:
     <meta name="author" content="{{ site.author }}">
     <link rel="canonical" href="{{ canonicalUrl }}">
   {#- Global and page/layout-specific CSS #}
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
   {%- for href in stylesheets %}
     <link rel="stylesheet" href="{{ href }}">
   {%- endfor -%}
