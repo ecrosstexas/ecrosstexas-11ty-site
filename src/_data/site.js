@@ -22,7 +22,8 @@ module.exports = {
     'Texas'
   ],
   lang: 'en',
-  locale: 'en_us',
+  locale: 'en_US',
+  twitter: '@ecrosstexas',
   repo: 'https://github.com/ecrosstexas/ecrosstexas-11ty-site',
   indieauth: true,
   indieauthAuth: 'https://indieauth.com/auth',
