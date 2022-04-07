@@ -15,17 +15,17 @@ stylesheets:
 -->
   <head>
     <meta charset="utf-8">
-  {%- if page.url == "/" %}
-    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {%- if pageUrlLength > 1 %}
+    <title>{{ seo.title or title }} — {{ site.title }}</title>
   {%- else %}
-    <title>{{ seo.title or title }} | {{ site.title }}</title>
+    <title>{{ site.title }}</title>
   {%- endif %}
     <meta name="description" content="{{ seo.description or excerpt or site.description }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="{{ site.author }}">
     <link rel="canonical" href="{{ canonicalUrl }}">
   {#- Global and page/layout-specific CSS #}
-    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
   {%- for href in stylesheets %}
     <link rel="stylesheet" href="{{ href }}">
   {%- endfor -%}
