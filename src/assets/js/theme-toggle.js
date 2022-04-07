@@ -1,6 +1,5 @@
 // THEME TOGGLE
 // Borrowed from https://github.com/BenFictional/Cloudy-Night-Starter/blob/master/src/js/theme-toggle.js
-//
 
 if (window.CSS && CSS.supports('color', 'var(--primary)')) {
   var toggleColorMode = function toggleColorMode(e) {
