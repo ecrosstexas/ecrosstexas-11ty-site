@@ -1,5 +1,6 @@
 public/
 _site/
+_cache/
 node_modules/
 .cache
 .eslintcache

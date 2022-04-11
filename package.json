@@ -6,7 +6,7 @@
   "author": "Eric Wallace",
   "scripts": {
     "clean": "rimraf _site",
-    "debug:html": "cross-env DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
+    "debug:html": "dotenv DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
     "serve": "npm-run-all --parallel serve:*",
     "serve:html": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
     "serve:css": "sass --watch src/assets/styles:_site/assets/styles --style=expanded",
@@ -43,6 +43,7 @@
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
     "@quasibit/eleventy-plugin-schema": "^1.9.0",
     "@quasibit/eleventy-plugin-sitemap": "^2.1.5",
+    "dotenv": "^16.0.0",
     "eleventy-plugin-embed-everything": "^1.14.0",
     "eleventy-plugin-metagen": "^1.6.0",
     "eleventy-plugin-reading-time": "^0.0.1",
