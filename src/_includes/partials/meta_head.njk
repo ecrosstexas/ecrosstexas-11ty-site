@@ -1,0 +1,26 @@
+{#- Refrence https://github.com/joshbuchea/HEAD as needed! #}
+  {#- Robtos #}
+  {% if noindex == true %}
+    <meta name="robots" content="noindex,follow">
+  {% endif %}
+
+  {#- Open Graph #}
+  {%- include "partials/meta_og.njk" -%}
+  {#- Twitter Card #}
+  {%- include "partials/meta_twitter.njk" -%}
+  {#- disallow Twitter from using your site's info for personalization purposes #}
+    <meta name="twitter:dnt" content="on">
+  {#- Favicons #}
+    {# TOD0: get working}
+    {% favicon '/assets/favicon/favicon.png' %} #}
+  {#- .Manifest #}
+    <link rel="manifest" href="/manivest.webmanifest">
+  {#- Humans.txt - https://humanstxt.org #}
+    <link type="text/plain" rel="author" href="/humans.txt">
+  {#- IndieAuth --- NEED TO UPDATE TO ONLY SHOW ON HOME PAGE #}
+    <link rel="authorization_endpoint" href="{{ site.indieauthAuth }}">
+    <link rel="token_endpoint" href="{{ site.indieauthToken }}">
+  {# Webmentions #}
+    <link rel="webmention" href="https://webmention.io/www.ecrosstexas.com/webmention" />
+    <link rel="pingback" href="https://webmention.io/www.ecrosstexas.com/xmlrpc" />
+  {#- RSS Feed #}

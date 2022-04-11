@@ -1,0 +1,14 @@
+  {# Open Graph meta properties #}
+    <meta property="og:site_name" content="{{ site.title }}">
+  {%- if pageUrlLength > 1 %}
+    <meta property="og:title" content="{{ seo.title or title }} — {{ site.title }}">
+  {%- else %}
+    <meta property="og:title" content="{{ seo.title or title }}">
+  {%- endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ page.url | toAbsoluteUrl }}">
+    <meta property="og:locale" content="{{ site.locale }}">
+  {%- if thumbnail -%}
+    <meta property="og:image" content="{{ thumbnail }}">
+  {%- endif -%}

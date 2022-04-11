@@ -1,0 +1,12 @@
+  {#- Twitter Card meta properties #}
+    <meta name="twitter:card" content="summary">
+  {%- if pageUrlLength > 1 %}
+    <meta property="twitter:title" content="{{ seo.title or title }} — {{ site.title }}">
+  {%- else %}
+    <meta property="twitter:title" content="{{ seo.title or title }}">
+  {%- endif %}
+    <meta name="twitter:description" content="{{ description }}">
+    <meta name="twitter:site" content="{{ site.twitter }}">
+  {%- if thumbnail -%}
+    <meta name="twitter:image" content="{{ thumbnail }}">
+  {%- endif -%}
