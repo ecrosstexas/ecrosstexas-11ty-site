@@ -54,7 +54,7 @@ The following tasks are **required**:
 
 - [ ] Fill out [`src/_data/site.js`](./src/_data/site.js) with your site's metadata and URL.
 - [ ] Update [`package.json`](./package.json) with your site's info.
-- [ ] Replace the favicon in [`src/assets/images/favicon`](./src/assets/images/favicon/) with your site's favicon.
+- [ ] Replace the favicon in [`src/assets/img/favicon`](./src/assets/img/favicon/) with your site's favicon.
 
 **Optionally**, you may also want to customize:
 

@@ -7,8 +7,8 @@ draft: false
 seo:
   title: More Change # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: # relative to /assets/images, if blank, uses -> /src/assets/images/meta/default.png
-images: # relative to /src/assets/images/
+  image: # relative to /assets/img, if blank, uses -> /src/assets/img/meta/default.png
+images: # relative to /src/assets/img/
   feature: # used for hero
   thumb: # used for collections listing view
   slide:

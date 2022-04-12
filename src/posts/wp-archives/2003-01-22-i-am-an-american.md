@@ -7,8 +7,8 @@ draft: false
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: # relative to /assets/images, if blank, uses -> /src/assets/images/meta/default.png
-images: # relative to /src/assets/images/
+  image: # relative to /assets/img, if blank, uses -> /src/assets/img/meta/default.png
+images: # relative to /src/assets/img/
   feature: # used for hero
   thumb: # used for collections listing view
   slide:
@@ -18,7 +18,7 @@ tags:
 ---
 From the [NRLC](http://www.nrlc.org/):
 
-{% image "/assets/images/babyandflag.jpg", "Unretouched 4-D Ultrasound image" %}
+{% image "/assets/img/babyandflag.jpg", "Unretouched 4-D Ultrasound image" %}
 
 > I am endowed by my Creator
 > with the unalienable right to life.
