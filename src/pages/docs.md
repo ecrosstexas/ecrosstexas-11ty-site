@@ -15,11 +15,13 @@ tags:
 
 ## This site
 
-- [GitHub Repo](https://github.com/ecrosstexas/ecrosstexas-tea-base/)
+- [GitHub Repo]({{ site.repo }})
 
 ## Elventy
 
 - [11ty](https://www.11ty.dev/docs/)
+- [Introduction to Eleventy (11ty)](https://github.com/jeromecoupe/iad_eleventy_introduction)
+- [Learn Eleventy From Scratch](https://learneleventyfromscratch.com)
 - [Eleventy Walk Through](https://rphunt.github.io/eleventy-walkthrough/)
 
 ### Plugins
@@ -36,13 +38,18 @@ tags:
 
 ## Languages
 
+### JavaScript
+
+#### Time
+- [You don't (may not) need Moment.js](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
+
 ### HTML5
 
 - [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/v8.0.0/dist/doc/TOC.md)
 
 ### CSS
-
-- [Tailwind CSS](https://tailwindcss.com/docs)
+- [Every Layout – Re-learn CSS layout](https://every-layout.dev)
+- [CUBE CSS](https://cube.fyi)
 
 ### Markdown
 
