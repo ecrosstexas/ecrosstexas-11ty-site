@@ -5,7 +5,7 @@ const { dateToISO } = require("./11ty/filters/date.js");
 const dir = require("./11ty/constants/dir.js");
 const imageShortcode = require("./11ty/shortcodes/image.js");
 const faviconShortcode = require("./11ty/shortcodes/favicon.js");
-const sanitizeHTML = require('sanitize-html')
+const sanitizeHTML = require('sanitize-html');
 
 // Template language for the site: https://www.11ty.dev/docs/languages/liquid/
 const TEMPLATE_ENGINE = 'liquid';
@@ -30,6 +30,14 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter('values', Object.values);
   eleventyConfig.addFilter('entries', Object.entries);
 
+// Get the first `n` elements of a collection.
+eleventyConfig.addFilter('head', (array, n) => {
+  if (n < 0) {
+    return array.slice(n)
+  }
+
+  return array.slice(0, n)
+})
 
 // WEBMENTIONS FILTER
 eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
