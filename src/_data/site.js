@@ -21,7 +21,7 @@ module.exports = {
     'reformed',
     'Texas'
   ],
-  domain: 'ecrosstexas.com',
+  domain: 'www.ecrosstexas.com',
   lang: 'en',
   locale: 'en_US',
   twitter: '@ecrosstexas',

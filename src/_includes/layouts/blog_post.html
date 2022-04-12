@@ -53,12 +53,13 @@ stylesheets:
   {% favicon '/assets/favicon/favicon.png' %}
 </head>
 <body>
-  {% include "partials/page_header.njk" %}
-  {%- comment -%}Add common layout components here (e.g., site nav/footer){%- endcomment -%}
-  <main id="content">
-    <h1>{{ title }}</h1>
-  {{ content }}
-  </main>
-  {% include "partials/page_footer.njk" %}
-</body>
+  {%- include "partials/page_header.njk" -%}
+    <main id="content">
+      {%- if pageUrlLength > 1 -%}
+      <h1>{{ title }}</h1>
+      {%- endif -%}
+    {{ content | safe }}
+    </main>
+  {%- include "partials/page_footer.njk" -%}
+  </body>
 </html>

@@ -1,3 +1,5 @@
+// Original copied from  from https://github.com/maxboeck/eleventy-webmentions
+
 const fs = require('fs');
 const fetch = require('node-fetch');
 const unionBy = require('lodash/unionBy');
@@ -14,7 +16,7 @@ const TOKEN = process.env.WEBMENTION_IO_TOKEN;
 async function fetchWebmentions(since) {
   const {domain} = site;
 
-  if (!domain || domain === 'myurl.com') {
+  if (!domain || domain === 'ecrosstexas.com') {
     // If we dont have a domain name, abort
     console.warn('unable to fetch webmentions: no domain specified in site.');
     return false;
