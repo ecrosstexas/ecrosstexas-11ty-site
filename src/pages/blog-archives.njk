@@ -18,7 +18,7 @@ seo:
   Change the 'postListStyle' value in /_data/structure.json.
   NOTE: Can make this a select in the CMS?
 #}
-{% set postlist = ['', structure.postListStyle, '.njk'] %}
+{% set postlist = ['partials/','', structure.postListStyle, '.njk'] %}
 {% include postlist | join %}
 
 <p>See more blog posts in the <a href="/blog/archives/index.html">archives</a>.</p>
