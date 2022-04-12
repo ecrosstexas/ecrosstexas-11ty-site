@@ -1,3 +1,4 @@
+{#- Original copied from  from https://github.com/maxboeck/eleventy-webmentions#}
 {%- set absoluteUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
 {%- set mentions = webmentions.children | webmentionsForUrl(absoluteUrl) -%}
 <div class="webmentions" id="webmentions">
