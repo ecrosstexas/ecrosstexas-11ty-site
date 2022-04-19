@@ -14,7 +14,7 @@ tags:
 ---
 ecrosstexas.com has been my personal web space since I discovered blogging in 2001. Through the years it has housed various incarnations of my [blog](/blog/), [photos](/photos/), personal projects and whatever other random stuff that interests me. The current design was launched in July of 2021.
 
-The site is currently hosted on <a target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify.</a> and is published using the {{ eleventy.generator}} static site generator.
+The site is currently hosted on <a target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify.</a> and is published using the <a target="_blank" href="https://11ty.dev" alt="Eleventy, a simpler static site generator.">{{ eleventy.generator}}</a> static site generator.
 
 ## Copyright
 
