@@ -213,6 +213,13 @@
   "resolved" "https://registry.npmjs.org/@iarna/toml/-/toml-2.2.5.tgz"
   "version" "2.2.5"
 
+"@jamshop/eleventy-filter-dump@^1.0.4":
+  "integrity" "sha512-I0x0SAOL6huycBUi9GYKkCfErAfsiku1s45T7tgZ/QKYRvvQVO+s2JZ7uqdGuXq+4PSlkJ0I2sq/PRMtxagoMg=="
+  "resolved" "https://registry.npmjs.org/@jamshop/eleventy-filter-dump/-/eleventy-filter-dump-1.0.4.tgz"
+  "version" "1.0.4"
+  dependencies:
+    "ansi-html" "0.0.7"
+
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -392,6 +399,11 @@
   "version" "4.3.2"
   dependencies:
     "type-fest" "^0.21.3"
+
+"ansi-html@0.0.7":
+  "integrity" "sha1-gTWEAhliqenm/QOflA0S9WynhZ4="
+  "resolved" "https://registry.npmjs.org/ansi-html/-/ansi-html-0.0.7.tgz"
+  "version" "0.0.7"
 
 "ansi-regex@^2.0.0":
   "integrity" "sha1-w7M6te42DYbg5ijwRorn7yfWVN8="
@@ -5052,6 +5064,11 @@
     "string-width" "^4.2.0"
     "y18n" "^5.0.5"
     "yargs-parser" "^20.2.2"
+
+"yarn@^1.22.18":
+  "integrity" "sha512-oFffv6Jp2+BTUBItzx1Z0dpikTX+raRdqupfqzeMKnoh7WD6RuPAxcqDkMUy9vafJkrB0YaV708znpuMhEBKGQ=="
+  "resolved" "https://registry.npmjs.org/yarn/-/yarn-1.22.18.tgz"
+  "version" "1.22.18"
 
 "yeast@0.1.2":
   "integrity" "sha1-AI4G2AlDIMNy28L47XagymyKxBk="
