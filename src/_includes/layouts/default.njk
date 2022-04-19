@@ -1,7 +1,6 @@
 ---
 stylesheets:
   - /assets/styles/main.css
-  - /assets/styles/webmentions.css
 ---
 {#- Canonical URL. Make sure each page has one. #}
 {%- set canonicalUrl -%}{{ page.url | toAbsoluteUrl }}{%- endset -%}
@@ -24,6 +23,7 @@ stylesheets:
   {%- endif %}
     <meta name="description" content="{{ seo.description or excerpt or site.description }}">
     <meta name="author" content="{{ site.author }}">
+    <meta name="generator" content="{{ eleventy.generator }}">
     <link rel="canonical" href="{{ canonicalUrl }}">
   {#- Global and page/layout-specific CSS #}
     <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
@@ -39,7 +39,7 @@ stylesheets:
       <h1>{{ title }}</h1>
       {%- endif -%}
     {{ content | safe }}
-    {%- include "partials/webmentionlist.njk" %}
+    {#% include "partials/webmentionlist.njk" %#}
     </main>
   {%- include "partials/page_footer.njk" -%}
   </body>

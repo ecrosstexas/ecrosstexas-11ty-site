@@ -4,14 +4,6 @@ date: 2021-03-04
 author: Eric Wallace
 excerpt:
 draft: false
-eo:
-  title: # if left blank, title above used
-  description: # if left blank, excerpt above used
-  image: # relative to /assets/images, if blank, uses -> /src/assets/images/meta/default.png
-images: # relative to /src/assets/images/
-  feature: # used for hero
-  thumb: # used for collections listing view
-  slide:
 tags:
   - PCA
   - Elders
@@ -77,7 +69,7 @@ Fellow Ruling Elders, I encourage you in the name of our great God and Savior, J
 - [Three Vital Questions For the PCA In 2021](https://heidelblog.net/2020/12/three-vital-questions-for-the-pca-in-2021/)
 - [Will The PCA Go Woke?](https://www.theamericanconservative.com/articles/will-the-pca-go-woke/)
 - [A Plea to the PCA](https://www.reformation21.org/blog/a-plea-to-the-pca)
-- [The PCA’s Very Slippery Slope ](https://gospelreformation.net/the-pcas-very-slippery-slope-part-1/)
+- [The PCA’s Very Slippery Slope](https://gospelreformation.net/the-pcas-very-slippery-slope-part-1/)
 - [The PCA at a Crossroads](https://gospelreformation.net/the-pca-at-a-crossroads/)
 - [Warnings in the PCA](https://ewerickson.substack.com/p/warnings-in-the-pca)
 - [The Slippery Slope and the Jesus Box](https://www.reformation21.org/blogs/the-slippery-slope-and-the-jes.php)

@@ -8,7 +8,7 @@ seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
   image:
-images: # relative to /src/assets/images/
+images: # relative to /assets/img/
   feature: # used for hero
   thumb: # used for collections listing view
   slide:

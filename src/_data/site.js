@@ -24,6 +24,7 @@ module.exports = {
   domain: 'www.ecrosstexas.com',
   lang: 'en',
   locale: 'en_US',
+  location: 'Plano, TX, USA',
   twitter: '@ecrosstexas',
   repo: 'https://github.com/ecrosstexas/ecrosstexas-11ty-site',
   indieauth: true,

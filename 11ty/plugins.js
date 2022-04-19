@@ -10,8 +10,8 @@ module.exports = {
     const sitemap = require('@quasibit/eleventy-plugin-sitemap');
     eleventyConfig.addPlugin(sitemap, {
       sitemap: {
-        hostname: 'https://www.ecrosstexas.com',
-      },
+        hostname: 'https://www.ecrosstexas.com'
+      }
     });
   },
 
@@ -53,5 +53,5 @@ module.exports = {
      */
     const embedEverything = require('eleventy-plugin-embed-everything');
     eleventyConfig.addPlugin(embedEverything);
-  },
+  }
 };

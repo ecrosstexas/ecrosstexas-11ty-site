@@ -6,7 +6,7 @@
   "author": "Eric Wallace",
   "scripts": {
     "clean": "rimraf _site",
-    "debug:html": "dotenv DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
+    "debug:html": "cross-env DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
     "serve": "npm-run-all --parallel serve:*",
     "serve:html": "cross-env ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
     "serve:css": "sass --watch src/assets/styles:_site/assets/styles --style=expanded",
@@ -21,8 +21,8 @@
     "lint:js:fix": "eslint --cache --fix \"**/*.js\""
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.0",
-    "@11ty/eleventy-img": "^1.0.0",
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-img": "^2.0.0",
     "@11ty/eleventy-upgrade-help": "^1.0.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.6.0",

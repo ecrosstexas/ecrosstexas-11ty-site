@@ -7,8 +7,8 @@ draft: false
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: # relative to /assets/images, if blank, uses -> /src/assets/images/meta/default.png
-images: # relative to /src/assets/images/
+  image: # relative to /assets/img/, if blank, uses -> /assets/img/default.png
+images: # relative to /assets/img/
   feature: # used for hero
   thumb: # used for collections listing view
   slide:
@@ -51,4 +51,4 @@ Lastly, Chris Rosebrough has posted [A New 95 Theses: Challenging The Excesses O
 >
 > In publishing these theses, we do not intend to foment division, but to expose those who are creating division within the body of Christ. We invite all who love the Gospel of Jesus Christ to engage in this debate. We do so in the spirit of the great Reformer, Martin Luther, as we implore the mercies of God upon His Church, for the sake of Jesus Christ, the Lord of the Church and shepherd of our souls.
 
-[![luther.jpg](images/luther.jpg)](http://www.amazon.com/Luther-Joseph-Fiennes/dp/B0002C9D9U/ecrosstexas-20/)Notice: Images in my [Instagram](http://instagram.com/ecrosstexas/) photos come from the 2003 movie [Luther](http://www.amazon.com/Luther-Joseph-Fiennes/dp/B0002C9D9U/ecrosstexas-20/). I hope you enjoyed [my tweets](http://twitter.com/ecrosstexas/) ([@ecrosstexas](http://twitter.com/ecrosstexas/)) with quotes from the [movie](http://www.amazon.com/Luther-Joseph-Fiennes/dp/B0002C9D9U/ecrosstexas-20/).
+[![luther.jpg](/assets/img/luther.jpg)](http://www.amazon.com/Luther-Joseph-Fiennes/dp/B0002C9D9U/ecrosstexas-20/)Notice: Images in my [Instagram](http://instagram.com/ecrosstexas/) photos come from the 2003 movie [Luther](http://www.amazon.com/Luther-Joseph-Fiennes/dp/B0002C9D9U/ecrosstexas-20/). I hope you enjoyed [my tweets](http://twitter.com/ecrosstexas/) ([@ecrosstexas](http://twitter.com/ecrosstexas/)) with quotes from the [movie](http://www.amazon.com/Luther-Joseph-Fiennes/dp/B0002C9D9U/ecrosstexas-20/).

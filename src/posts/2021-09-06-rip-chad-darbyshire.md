@@ -4,14 +4,6 @@ date: 2021-09-06
 author: Eric Wallace
 excerpt:
 draft: false
-seo:
-  title: # if left blank, title above used
-  description: # if left blank, excerpt above used
-  image: # relative to /assets/images, if blank, uses -> /src/assets/images/meta/default.png
-images: # relative to /src/assets/images/
-  feature: # used for hero
-  thumb: # used for collections listing view
-  slide:
 tags:
     - KleinHighAlumni
     - ChadDarbyshire
@@ -31,10 +23,11 @@ Christ has conquered sin, death, and the devil. He is making all things new. Mea
 > Austin, TX 78759<br>
 > Friday, September 10th<br>
 > 5:30pm<br>
-> 
+>
 > Attire is come as you are.
 
-Elsewhere:
+## Elsewhere
+
 - See Chad's creative work on [Vimeo](https://vimeo.com/chaddarbyshire).
 - Chad Darbyshire on [IMDb](https://www.imdb.com/name/nm2155881/).
 - [Two of Mr. Darbyshire’s New Yorker colleagues, Matthew Diffee and Drew Dernavich remember their friend](https://michaelmaslin.com/chad-darbyshire-c-covert-darbyshire-is-remembered-by-matt-diffee-and-drew-dernavich/)

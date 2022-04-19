@@ -7,8 +7,8 @@ draft: false
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: /assets/images/political-typology-quiz.jpg
-images: # relative to /src/assets/images/
+  image: /assets/img/political-typology-quiz.jpg
+images: # relative to /src//
   feature: # used for hero
   thumb: # used for collections listing view
   slide:
@@ -16,7 +16,7 @@ tags:
     - politics
     - quiz
 ---
-{% image "/assets/images/political-typology-quiz.jpg", "Where do you fit in the political typology?" %}
+{% image "/assets/img/political-typology-quiz.jpg", "Where do you fit in the political typology?" %}
 
 According to the [Pew Research Center](https://www.pewresearch.org), my best fit is...
 
