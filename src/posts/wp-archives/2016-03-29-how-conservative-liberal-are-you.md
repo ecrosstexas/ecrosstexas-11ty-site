@@ -7,8 +7,8 @@ draft: false
 seo:
   title: # if left blank, title above used
   description: # if left blank, excerpt above used
-  image: /assets/img/Screen-Shot-2016-03-29-at-10.34.11-AM.png
-images: # relative to /src//
+  image: ../../images/uploads/Screen-Shot-2016-03-29-at-10.34.11-AM.png
+images: # relative to /src/assets/img/
   feature: # used for hero
   thumb: # used for collections listing view
   slide:

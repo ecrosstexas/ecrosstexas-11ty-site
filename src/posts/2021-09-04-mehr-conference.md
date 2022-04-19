@@ -4,6 +4,14 @@ date: 2021-09-04
 author: Eric Wallace
 excerpt:
 draft: false
+seo:
+  title: # if left blank, title above used
+  description: # if left blank, excerpt above used
+  image: # relative to /assets/img, if blank, uses -> /src/assets/img/meta/default.png
+images: # relative to /src/assets/img/
+  feature: # used for hero
+  thumb: # used for collections listing view
+  slide:
 tags:
     - Reformed
     - conference
