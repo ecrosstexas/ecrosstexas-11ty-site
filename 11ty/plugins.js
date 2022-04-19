@@ -53,5 +53,13 @@ module.exports = {
      */
     const embedEverything = require('eleventy-plugin-embed-everything');
     eleventyConfig.addPlugin(embedEverything);
+  },
+
+  dumpFilter: function (eleventyConfig) {
+    /**
+     * https://github.com/jamshop/eleventy-filter-dump
+     */
+    const dumpFilter = require('@jamshop/eleventy-filter-dump');
+    eleventyConfig.addFilter('dump', dumpFilter);
   }
 };
