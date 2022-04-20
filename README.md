@@ -1,4 +1,6 @@
-# 11ty-sass-images-seo
+# ecrosstexas-11ty-site
+
+Thanks to 11ty-sass-images-seo for the starter!
 
 > The four ingredients to an awesome static site.
 
