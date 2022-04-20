@@ -12,9 +12,9 @@ seo:
 tags:
   - pages
 ---
-ecrosstexas.com has been my personal web space since I discovered blogging in 2001. Through the years it has housed various incarnations of my [blog](/blog/), [photos](/photos/), personal projects and whatever other random stuff that interests me. The current design was launched in July of 2021.
+ecrosstexas.com has been my personal web space since I discovered blogging in 2001. Through the years it has housed various incarnations of my [blog](/blog/), [photos](/photos/), personal projects and whatever other random stuff that interests me.
 
-The site is currently hosted on <a target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify.</a> and is published using the <a target="_blank" href="https://11ty.dev" alt="Eleventy, a simpler static site generator.">{{ eleventy.generator}}</a> static site generator.
+Since July 2021, the site is hosted on <a target="_blank" href="https://netlify.com" alt="Netflify - Server Less, Do More">Netlify</a>. and is published using the <a target="_blank" href="https://11ty.dev" alt="Eleventy, a simpler static site generator.">{{ eleventy.generator }}</a> static site generator. GitHub hosts the code repo <a href="{{ site.repo }}">{% packageName %}</a> and this is currently {% packageVersion %}.
 
 ## Copyright
 

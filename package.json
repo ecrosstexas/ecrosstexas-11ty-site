@@ -1,9 +1,17 @@
 {
   "name": "ecrosstexas-11ty-site",
-  "description": "My personal website and blog, built with eleventy",
+  "description": "Personal website and blog of ecrosstexas, built with eleventy",
   "version": "0.1.0",
   "license": "ISC",
   "author": "Eric Wallace",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecrosstexas/ecrosstexas-11ty-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecrosstexas/ecrosstexas-11ty-site/issues"
+  },
+  "homepage": "https://github.com/ecrosstexas/ecrosstexas-11ty-site#readme",
   "scripts": {
     "clean": "rimraf _site",
     "debug:html": "cross-env DEBUG=Eleventy* ELEVENTY_ENV=development npx @11ty/eleventy --serve --incremental --port=8080",
@@ -23,22 +31,34 @@
   "devDependencies": {
     "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-img": "^2.0.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.3",
     "@11ty/eleventy-upgrade-help": "^1.0.1",
     "cross-env": "^7.0.3",
+    "cssnano": "^5.0.15",
     "eslint": "^8.6.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
+    "markdown-it": "^12.3.2",
+    "markdown-it-anchor": "^8.4.1",
     "netlify-plugin-cache-folder": "^0.0.8",
     "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "postcss-scss": "^4.0.3",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.47.0",
+    "sass": "^1.48.0",
     "slugify": "^1.6.5",
     "stylelint": "^14.2.0",
-    "stylelint-config-standard-scss": "^3.0.0"
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0"
   },
+
   "dependencies": {
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
