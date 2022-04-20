@@ -1,12 +1,13 @@
 require('dotenv').config();
 const plugins = require("./11ty/plugins.js");
-
 const { toAbsoluteUrl } = require("./11ty/filters/index");
 const { dateToISO } = require("./11ty/filters/date.js");
 const dir = require("./11ty/constants/dir.js");
 const imageShortcode = require("./11ty/shortcodes/image.js");
 const faviconShortcode = require("./11ty/shortcodes/favicon.js");
 const sanitizeHTML = require('sanitize-html');
+const packageName = require("./package.json").name;
+const packageVersion = require("./package.json").version;
 
 // Template language for the site: https://www.11ty.dev/docs/languages/liquid/
 const TEMPLATE_ENGINE = 'liquid';
@@ -20,6 +21,9 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addShortcode('image', imageShortcode);
   eleventyConfig.addShortcode('favicon', faviconShortcode);
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode("packageName", () => `${packageName}`);
+  eleventyConfig.addShortcode("packageVersion", () => `v${packageVersion}`);
+
 
 
   // Custom filters
