@@ -1,22 +1,22 @@
-<footer>
+<footer class="tdbc-background--secondary">
+{% include "partials/footer_nav.njk" %}
   <hr />
-        <p>
-          Copyright <span aria-hidden="true">&copy;</span> 2001&ndash;{% year %}, {{ site.author }}. <a class="underline" href="/legal/">Legal</a>
-        </p>
-        <p>
-          <a class="underline" href="/colophon/">Made</a> in Plano, Texas.</p>
-        <p>
-          <em>Soli Deo Gloria</em>
-        </p>
-
-
-
-        <span>
-            <a href="https://github.com/ecrosstexas/ecrosstexas-11ty-site/edit/main/{{page.inputPath}}">edit</a>
-            &middot;
-            <a title="Back to Top" href="#top">&#8593; top</a>
-          </span>
-
-
+  <div class="tdbc-container tdbc-text-align-center">
+    <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
+      <p class="tdbc-mb-none">
+        Copyright <span aria-hidden="true">&copy; </span>{{ site.bornYear }}&ndash;{% year %}, {{ site.author }}.
+      </p>
+    </div>
+    <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
+      <p class="tdbc-mb-none">
+        Made in {{ site.location }}.
+      </p>
+    </div>
+    <div class="tdbc-row tdbc-ink--light tdbc-mx-auto">
+      <p class="tdbc-mb-none">
+        <em>Soli Deo Gloria</em>
+      </p>
+    </div>
+  </div>
 </footer>
 

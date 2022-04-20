@@ -24,7 +24,8 @@ module.exports = {
   domain: 'www.ecrosstexas.com',
   lang: 'en',
   locale: 'en_US',
-  location: 'Plano, TX, USA',
+  location: 'Plano, Texas',
+  bornYear: '2001', // Year the website went live (used in copyright)
   twitter: '@ecrosstexas',
   repo: 'https://github.com/ecrosstexas/ecrosstexas-11ty-site',
   indieauth: true,
