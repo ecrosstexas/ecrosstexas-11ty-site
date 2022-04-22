@@ -45,9 +45,11 @@ tags:
 
 ### HTML5
 
-- [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/blob/v8.0.0/dist/doc/TOC.md)
+- [HTML5 Boilerplate](https://html5boilerplate.com)
+- [HEAD – A simple guide to HTML <head> elements](https://htmlhead.dev)
 
 ### CSS
+
 - [Every Layout – Re-learn CSS layout](https://every-layout.dev)
 - [CUBE CSS](https://cube.fyi)
 
@@ -55,6 +57,7 @@ tags:
 
 - [The Markdown Guide](https://www.markdownguide.org)
 - [John Gruber - creator of Markdown](https://daringfireball.net/projects/markdown/)
+- [markdown-it](https://markdown-it.github.io)
 
 ### Emoji
 
