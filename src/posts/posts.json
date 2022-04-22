@@ -3,5 +3,5 @@
 	"tags": "post",
 	"author": "{{ site.author }}",
 	"type": "article",
-  "layout": "default.njk"
+  "layout": "blog_post.html"
 }
