@@ -58,7 +58,6 @@
     "stylelint-order": "^5.0.0",
     "stylelint-scss": "^4.1.0"
   },
-
   "dependencies": {
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-directory-output": "^1.0.1",
